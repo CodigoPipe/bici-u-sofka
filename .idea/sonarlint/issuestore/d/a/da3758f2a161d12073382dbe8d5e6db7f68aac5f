@@ -1,8 +1,0 @@
-
-h	java:S116"NRename this field "DNI" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(èüöšıÿÿÿÿ
->
-java:S1068"(Remove this unused "name" private field.(Ë¥¼
-B
-java:S1068"'Remove this unused "DNI" private field.(èüöšıÿÿÿÿ
-B
-java:S1068	"'Remove this unused "age" private field.(Æ†´¦şÿÿÿÿ
