@@ -2,11 +2,12 @@ package menus;
 
 import entities.User;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Menu1 {
 
-    public static void menu1() {
+    public static void menu1(ArrayList<User> users) {
 
         Scanner menu1sc = new Scanner(System.in);
 
@@ -29,9 +30,11 @@ public class Menu1 {
 
         User currentUser = new User(name,surname,dni,age);
 
+        users.add(currentUser);
 
+        System.out.println(users.get(0).getName());
 
-        MenuMaster.principal();
+        MenuMaster.principal(users);
 
 
     }

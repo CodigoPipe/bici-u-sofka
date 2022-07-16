@@ -1,10 +1,13 @@
 package menus;
 
+import entities.User;
+
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class MenuMaster {
 
-    public static void principal(){
+    public static void principal(ArrayList<User> users){
 
         System.out.println("\nWelcome to the Bici-U System, Please choose an option: \n" +
                 " \n" +
@@ -16,7 +19,7 @@ public class MenuMaster {
         switch (answer){
 
             case 1:
-                Menu1.menu1();
+                Menu1.menu1(users);
                 break;
             /*case 2:
                 Menu2.menu2();
