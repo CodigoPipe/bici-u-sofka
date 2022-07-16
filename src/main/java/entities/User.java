@@ -38,8 +38,14 @@ public class User {
         return DNI;
     }
 
-    public void setDNI(String DNI) {
-        this.DNI = DNI;
+    //sets a DNI for a professor
+    public void setDNIProfessor(String DNI) {
+        this.DNI = "P-" + DNI;
+    }
+
+    //set a Dni for a student
+    public void setDNIStudent(String DNI) {
+        this.DNI = "S-" + DNI;
     }
 
     public int getAge() {

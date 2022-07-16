@@ -32,9 +32,9 @@ public class MenuMaster {
                 break;
             case 5:
                 Menu5.menu5();
-                break;
-            case 6:
                 break;*/
+            case 6:
+                break;
         }
 
         sc.close();
