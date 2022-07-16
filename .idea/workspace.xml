@@ -5,21 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36412ad4-e58a-46b1-9861-ccd74b1b3aa9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entities/Debts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/menus/Menu1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/menus/Menu2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/menus/Menu3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/menus/Menu4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/menus/Menu5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/menus/MenuMaster.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entities/Bicycles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/Bicycles.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entities/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entities/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/Ticket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/enums/BicycleType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/enums/TicketStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entities/Debt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/menus/Menu1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menus/Menu1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/menus/MenuMaster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menus/MenuMaster.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +50,26 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\bici-u-felipe-gil" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main.Main" />
+      <module name="bici-u-felipe-gil" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
