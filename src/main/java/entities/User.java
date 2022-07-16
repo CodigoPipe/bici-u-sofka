@@ -1,12 +1,13 @@
 package entities;
 
-public class Person {
+public class User {
 
     private String name;
 
     private String DNI;
 
     private int age;
+
 
 
 }

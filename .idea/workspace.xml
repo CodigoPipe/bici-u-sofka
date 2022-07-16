@@ -5,11 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36412ad4-e58a-46b1-9861-ccd74b1b3aa9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/enums/BicycleType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/enums/TicketStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/tickets.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Main/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entities/Debts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/menus/Menu1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/menus/Menu2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/menus/Menu3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/menus/Menu4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/menus/Menu5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/menus/MenuMaster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/entities/Bicycles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/Bicycles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entities/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entities/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/Ticket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/enums/BicycleType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/enums/TicketStatus.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +29,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
