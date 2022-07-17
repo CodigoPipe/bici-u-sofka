@@ -1,13 +1,16 @@
 package menus;
 
+import entities.Bicycle;
+import entities.Ticket;
 import entities.User;
 
 import java.util.ArrayList;
 import java.util.Scanner;
 
+
 public class Menu1 {
 
-    public static void menu1(ArrayList<User> users) {
+    public static void menu1(ArrayList<User> users, ArrayList<Ticket> tickets, ArrayList<Bicycle> bicycles) {
 
         Scanner menu1sc = new Scanner(System.in);
 
@@ -57,7 +60,7 @@ public class Menu1 {
         //System.out.println(users.get(0).getName());
 
 
-        MenuMaster.principal(users);
+        MenuMaster.principal(users,tickets, bicycles);
 
 
     }

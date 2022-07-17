@@ -1,5 +1,7 @@
 package menus;
 
+import entities.Bicycle;
+import entities.Ticket;
 import entities.User;
 
 import java.util.ArrayList;
@@ -7,7 +9,7 @@ import java.util.Scanner;
 
 public class MenuMaster {
 
-    public static void principal(ArrayList<User> users){
+    public static void principal(ArrayList<User> users, ArrayList<Ticket> tickets, ArrayList<Bicycle> bicycles){
 
         System.out.println("\nWelcome to the Bici-U System, Please choose an option: \n" +
                 " \n" +
@@ -19,7 +21,7 @@ public class MenuMaster {
         switch (answer){
 
             case 1:
-                Menu1.menu1(users);
+                Menu1.menu1(users,tickets,bicycles);
                 break;
             /*case 2:
                 Menu2.menu2();
@@ -34,6 +36,7 @@ public class MenuMaster {
                 Menu5.menu5();
                 break;*/
             case 6:
+                System.out.println("Good luck, come back soon!!");
                 break;
         }
 
