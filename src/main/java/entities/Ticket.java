@@ -6,7 +6,7 @@ import java.util.Date;
 
 public class Ticket {
 
-    private int idTicket = nextIdTicket;
+    private String idTicket = "T-" + nextIdTicket;
 
     private static int nextIdTicket;
 
@@ -21,9 +21,11 @@ public class Ticket {
     private LocalDate date;
     private String idUserTicket;
 
-    private int mustPay = 0;
+    private int mustPay = setHowMuchPaid();
 
     private Boolean isGood = true;
+
+
 
     public Ticket(String userTicket) {
 
@@ -31,11 +33,11 @@ public class Ticket {
     }
 
     //getters and setters
-    public int getIdTicket() {
+    public String getIdTicket() {
         return idTicket;
     }
 
-    public void setIdTicket(int idTicket) {
+    public void setIdTicket(String idTicket) {
         this.idTicket = idTicket;
     }
 
@@ -51,8 +53,8 @@ public class Ticket {
         return withHelmet;
     }
 
-    public void setWithHelmet(Boolean withHelmet) {
-        this.withHelmet = withHelmet;
+    public void setWithHelmet() {
+        this.withHelmet = false;
     }
 
     public String getStatus() {
@@ -83,8 +85,8 @@ public class Ticket {
         return isGood;
     }
 
-    public void setGood(Boolean good) {
-        isGood = good;
+    public void setGood() {
+        this.isGood = false;
     }
 
     public LocalDateTime getStartHour() {
@@ -110,4 +112,16 @@ public class Ticket {
     public void setDate() {
         this.date = LocalDate.now();
     }
+
+    public int setHowMuchPaid(){
+        if(this.withHelmet == false){
+            this.mustPay += 5;
+        }
+        if(this.isGood == false){
+            this.mustPay += 5;
+        }
+        return this.mustPay;
+    }
+
+
 }
