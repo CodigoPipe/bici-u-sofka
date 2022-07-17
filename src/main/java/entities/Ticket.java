@@ -1,32 +1,36 @@
 package entities;
 
+import java.time.LocalDate;
 import java.time.LocalDateTime;
+import java.util.Date;
 
 public class Ticket {
 
-    private int idTicket;
+    private int idTicket = nextIdTicket;
 
     private static int nextIdTicket;
 
     private Boolean withHelmet = true;
 
-    private String status;
+    private String status = "Active";
 
-    private User userTicket;
+    private LocalDateTime startHour;
 
-    private int mustPay;
+    private LocalDateTime endHour;
+
+    private LocalDate date;
+    private String idUserTicket;
+
+    private int mustPay = 0;
 
     private Boolean isGood = true;
 
-    public Ticket(int idTicket, Boolean withHelmet, String status, User userTicket, int mustPay, Boolean isGood) {
-        this.idTicket = idTicket;
-        this.withHelmet = withHelmet;
-        this.status = status;
-        this.userTicket = userTicket;
-        this.mustPay = mustPay;
-        this.isGood = isGood;
+    public Ticket(String userTicket) {
+
+        this.idUserTicket = idUserTicket;
     }
 
+    //getters and setters
     public int getIdTicket() {
         return idTicket;
     }
@@ -59,12 +63,12 @@ public class Ticket {
         this.status = status;
     }
 
-    public User getUserTicket() {
-        return userTicket;
+    public String getIdUserTicket() {
+        return idUserTicket;
     }
 
-    public void setUserTicket(User userTicket) {
-        this.userTicket = userTicket;
+    public void setIdUserTicket(String idUserTicket) {
+        this.idUserTicket = idUserTicket;
     }
 
     public int getMustPay() {
@@ -81,5 +85,29 @@ public class Ticket {
 
     public void setGood(Boolean good) {
         isGood = good;
+    }
+
+    public LocalDateTime getStartHour() {
+        return startHour;
+    }
+
+    public void setStartHour() {
+        this.startHour = LocalDateTime.now();
+    }
+
+    public LocalDateTime getEndHour() {
+        return endHour;
+    }
+
+    public void setEndHour() {
+        this.endHour = LocalDateTime.now();
+    }
+
+    public LocalDate getDate() {
+        return date;
+    }
+
+    public void setDate() {
+        this.date = LocalDate.now();
     }
 }

@@ -35,7 +35,7 @@ public class Main {
             }
 
         }catch(IOException e){
-            System.out.println("no esta");
+            System.out.println("there is nothing in txt file");
         }
 
 

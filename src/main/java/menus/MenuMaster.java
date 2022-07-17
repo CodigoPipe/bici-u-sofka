@@ -23,10 +23,10 @@ public class MenuMaster {
             case 1:
                 Menu1.menu1(users,tickets,bicycles);
                 break;
-            /*case 2:
-                Menu2.menu2();
+            case 2:
+                Menu2.menu2(users,tickets,bicycles);
                 break;
-            case 3:
+            /*case 3:
                 Menu3.menu3();
                 break;
             case 4:
