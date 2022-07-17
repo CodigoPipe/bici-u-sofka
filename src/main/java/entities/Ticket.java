@@ -86,7 +86,7 @@ public class Ticket {
     }
 
     public void setGood() {
-        this.isGood = false;
+        isGood = false;
     }
 
     public LocalDateTime getStartHour() {
@@ -117,9 +117,9 @@ public class Ticket {
         if(this.withHelmet == false){
             this.mustPay += 5;
         }
-        if(this.isGood == false){
+        /*if(isGood == false){
             this.mustPay += 5;
-        }
+        }*/
         return this.mustPay;
     }
 
